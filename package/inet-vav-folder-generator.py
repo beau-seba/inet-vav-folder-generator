@@ -2,10 +2,10 @@
 """
 Created on Fri Jan 17 10:34:48 2020
 
-@author: SESA431606
+@author: beau-seba
 
 import the INET VAV DmprPos Search to a server containing an INET Interface which hosts MCI's, and execute it.
-copy the results to one or more Excel workbooks, and save to convenient location. recommend creating workbooks of no more than 30 VAVs.
+copy the results to one or more Excel workbooks, and save to convenient location.
 run this script and select the export template, then the workbook(s), and a new export will be created for each workbook.
 
 """
