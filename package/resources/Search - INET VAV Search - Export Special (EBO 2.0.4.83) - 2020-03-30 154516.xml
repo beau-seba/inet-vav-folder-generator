@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectSet ExportMode="Special" Note="TypesFirst" Version="2.0.4.83">
+  <MetaInformation>
+    <ExportMode Value="Special"/>
+    <RuntimeVersion Value="2.0.4.83"/>
+    <SourceVersion Value="2.0.4.83"/>
+    <ServerFullPath Value="/Server 1"/>
+  </MetaInformation>
+<ExportedObjects>
+  <OI NAME="INET VAV Search" TYPE="search.SearchQuery">
+    <PI Name="SearchLocation">
+      <Reference DeltaFilter="0" Locked="1" Object="~/INET Interface" Retransmit="0" TransferRate="10"/>
+    </PI>
+    <PI Name="SearchPath" Value="/Server 1/INET Interface"/>
+    <PI Name="SearchTerm" Value="*DmprPos*"/>
+    <OI NAME="Layout" TYPE="client.layout.GridViewSettings" flags="aggregated,hidden" hidden="1">
+      <OI NAME="ColumnSetting0" TYPE="client.layout.ColumnSetting" flags="aggregated">
+        <PI Name="FieldName" Value="NAME"/>
+        <PI Name="FieldObjectType" Value="system.Object"/>
+        <PI Name="Title" Value="Name"/>
+        <PI Name="Width" Value="125"/>
+      </OI>
+      <OI NAME="ColumnSetting1" TYPE="client.layout.ColumnSetting" flags="aggregated">
+        <PI Name="FieldName" Value="LOCATION"/>
+        <PI Name="Title" Value="Path"/>
+        <PI Name="VisiblePosition" Value="1"/>
+        <PI Name="Width" Value="125"/>
+      </OI>
+      <OI NAME="ColumnSetting2" TYPE="client.layout.ColumnSetting" flags="aggregated">
+        <PI Name="FieldName" Value="DESCR"/>
+        <PI Name="FieldObjectType" Value="system.Object"/>
+        <PI Name="Title" Value="Description"/>
+        <PI Name="VisiblePosition" Value="2"/>
+        <PI Name="Width" Value="125"/>
+      </OI>
+    </OI>
+  </OI>
+</ExportedObjects>
+
+</ObjectSet>
